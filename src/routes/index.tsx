@@ -5,11 +5,11 @@ export const Route = createFileRoute('/')({ component: Home })
 function Home() {
   return (
     <div>
-      <header>
-      <h1 className="font-serif text-5xl font-bold text-amber-900 mb-2">Welcome to Kissena Baked Goods</h1>
-      <p className="text-xl font-medium uppercase tracking-widest text-amber-700 border-b border-amber-200 pb-3 mb-6">Financial Statements</p>
+      <header className="border-b border-edge pb-6 mb-8">
+      <h1 className="font-display text-4xl leading-tight">Welcome to Kissena Baked Goods</h1>
+      <p className="mt-2 text-lg text-ink-soft">Financial Statements</p>
       </header>
-    <p className="text-lg text-red-500"> <p>
+    <p> <p>
   Kissena Baked Goods is a bakery in{" "}
   <a href="https://qc.cuny.edu"
      target="_blank" rel="noopener noreferrer" className="underline">
